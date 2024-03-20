@@ -12,6 +12,7 @@
 		4115408C1BEF3C7300531D08 /* KYEmbedDrawerControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 411540891BEF3C7300531D08 /* KYEmbedDrawerControllerSegue.swift */; };
 		4115408D1BEF3C7300531D08 /* KYEmbedMainControllerSegue.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4115408A1BEF3C7300531D08 /* KYEmbedMainControllerSegue.swift */; };
 		411540901BEF3CAA00531D08 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4115408F1BEF3CAA00531D08 /* UIKit.framework */; };
+		BD39AB072BAAB86100D53771 /* PrivacyInfo.xcprivacy in Resources */ = {isa = PBXBuildFile; fileRef = BD39AB062BAAB86100D53771 /* PrivacyInfo.xcprivacy */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		4115408A1BEF3C7300531D08 /* KYEmbedMainControllerSegue.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KYEmbedMainControllerSegue.swift; sourceTree = "<group>"; };
 		4115408F1BEF3CAA00531D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BD39AB012BAAB55500D53771 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+		BD39AB062BAAB86100D53771 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 		4115407E1BEF3AE100531D08 /* KYDrawerController */ = {
 			isa = PBXGroup;
 			children = (
+				BD39AB052BAAB83A00D53771 /* Resources */,
 				411540871BEF3C5500531D08 /* Classes */,
 				4115407F1BEF3AE100531D08 /* KYDrawerController.h */,
 				411540811BEF3AE100531D08 /* Info.plist */,
@@ -81,6 +84,14 @@
 				4115408F1BEF3CAA00531D08 /* UIKit.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BD39AB052BAAB83A00D53771 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				BD39AB062BAAB86100D53771 /* PrivacyInfo.xcprivacy */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -153,6 +164,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BD39AB072BAAB86100D53771 /* PrivacyInfo.xcprivacy in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
