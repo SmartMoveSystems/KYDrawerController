@@ -25,6 +25,7 @@
 		4115408F1BEF3CAA00531D08 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		BD39AB012BAAB55500D53771 /* Package.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		BD39AB062BAAB86100D53771 /* PrivacyInfo.xcprivacy */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = PrivacyInfo.xcprivacy; sourceTree = "<group>"; };
+		BDCABFD32BAACB6D003524AD /* KYDrawerController.podspec */ = {isa = PBXFileReference; lastKnownFileType = text; path = KYDrawerController.podspec; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -42,6 +43,7 @@
 		411540721BEF3AE100531D08 = {
 			isa = PBXGroup;
 			children = (
+				BDCABFD32BAACB6D003524AD /* KYDrawerController.podspec */,
 				BD39AB012BAAB55500D53771 /* Package.swift */,
 				4115407E1BEF3AE100531D08 /* KYDrawerController */,
 				4115408E1BEF3C9300531D08 /* Frameworks */,

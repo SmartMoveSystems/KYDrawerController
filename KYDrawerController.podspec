@@ -12,4 +12,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.ios.deployment_target = '8.0'
   s.swift_version = '4.2'
+  s.resource_bundles = {"KYDrawerController" => ["KYDrawerController/Resources/PrivacyInfo.xcprivacy"]}
 end
